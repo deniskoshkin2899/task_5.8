@@ -1,25 +1,58 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
-    <title>Моя первая веб-страница</title>
+    <title>Краткое руководство по семантическому HTML5</title>
 </head>
+
 <body>
-    <header>
+    <header align="center">
         <a href="#">Главная</a>
         <a href="pages/about.html">О нас</a>
         <a href="pages/contacts.html">Контакты</a>
     </header>
     <main>
-        <h1>Моя первая веб-страница</h1>
-        <h2>Про меня</h2>
-        <p>Меня зовут Денис. Я работаю <strong>менеджером по продажам</strong>. Решил кардинально сменить профессию, и разобраться, как устроен веб.</p>
-        <p>Живу в Новосибирске. Люблю зарабатывать деньги.</p>
-        <h2>Чему я хочу научиться</h2>
-        <p>На <em>этом</em> курсе я хотел бы научиться создавать сайты и веб приложения с нуля.</p>
+        <h1 align="center">Краткое руководство по семантическому HTML5</h1>
+        <h2>Что такое семантический HTML5?</h2>
+        <p><strong>Семантический HTML5</strong> - это набор элементов, четко описывающие свое значение для браузера</p>
+        <p>Пример <strong>не семантического</strong> элемента: <code>&lt;div&gt;</code> и <code>&lt;span&gt;</code> —
+            ничего не говорит о его содержимом.</p>
+        <p>Пример <strong>семантических элементов</strong>: <code>&lt;form&gt;</code>, <code>&lt;table&gt;</code> и
+            <code>&lt;article&gt;</code> — четко определяет его содержание.</p>
+
+        <hr>
+
+        <p>Новые семантические элементы в HTML5
+            Многие веб-узлы содержат HTML-код, например: <code>&lt;div ID = "NAV"&gt;</code>, <code>&lt;div class =
+                "заголовок"&gt;</code>, <code>&lt;div ID = "нижний колонтитул"&gt;</code> для обозначения навигации,
+            верхнего и нижнего колонтитулов.
+
+            <br><br>HTML5 предлагает новые семантические элементы для определения различных частей веб-страницы:
+            <p align="left">
+
+                <ul>
+                    <li><code>&lt;article&gt;</code></li>
+                    <li><code>&lt;aside&gt;</code></li>
+                    <li><code>&lt;details&gt;</code></li>
+                    <li><code>&lt;figcaption&gt;</code></li>
+                    <li><code>&lt;figure&gt;</code></li>
+                    <li><code>&lt;footer&gt;</code></li>
+                    <li><code>&lt;header&gt;</code></li>
+                    <li><code>&lt;main&gt;</code></li>
+                    <li><code>&lt;mark&gt;</code></li>
+                    <li><code>&lt;nav&gt;</code></li>
+                    <li><code>&lt;section&gt;</code></li>
+                    <li><code>&lt;summary&gt;</code></li>
+                    <li><code>&lt;time&gt;</code></li>
+                </ul>
+            </p>
+        </p>
     </main>
     <footer>
-       <span>&copy;&nbsp;Skillfactory</span>
+        <!--Перенести этот участок кода в низ страницы по центру-->
+        <span>&copy;&nbsp;Skillfactory</span>
     </footer>
 </body>
+
 </html>
